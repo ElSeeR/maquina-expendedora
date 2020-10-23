@@ -36,6 +36,11 @@ public class MaquinaExpendedoraSimple {
         precioBillete = precioDelBillete;
         return precioBillete;
     }
+    
+    public int setDescuento(int descuentoBillete) {
+        precioBillete = precioBillete - descuentoBillete;
+        return precioBillete;
+    }
 
     /**
      * Devuelve el precio del billete
